@@ -47,7 +47,7 @@ body{
     padding-bottom:15px;
 }
 
-.signup{
+.signup,.call-signup{
     background-color:#3882F6;
     border:none;
     color:white;
@@ -67,8 +67,12 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-bottom: 50px;
 }
-
+.text{
+    font-size: 18px;
+    max-width: 200px;
+}
 .information{
     text-align: center;
 }
@@ -84,13 +88,64 @@ body{
     justify-content: center;
 }
 
+.quote{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 125px 350px;
+}
+
+.speaker{
+    align-self: flex-end;
+    font-size: 26px;
+    font-weight: 900;
+    color:#1F2937;
+}
+
+.call{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    margin:100px 190px;
+    padding:50px 0px;
+    border-radius: 10px;
+}
+
+.call-text{
+    color: #eee;
+}
+
+.call-signup{
+    border:3px solid #eee;
+}
+
+.text-main{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.text-secondary{
+    font-size: 20px;
+}
+.quote-main{
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color:#1F2937;
+}
+
+.footer{
+    background-color: #1F2937;
+    color:#E5E7EB;
+    padding:25px 100px;
+    text-align: center;
+}
+
+
 a{
     text-decoration: none;
     color:#E5E7EB;
-}
-
-.item{
-    max-width: 200px;
 }
 
 .item .text{
