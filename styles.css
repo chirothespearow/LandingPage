@@ -24,9 +24,43 @@ body{
 .hero{
     background-color: #1F2937;
     display: flex;
+    flex:1;
+    justify-content: center;
+    align-items: center;
+    padding: 105px 200px;
+    padding-top: 105px;
+    padding-bottom: 105px;
+    padding-right:160px;
+    padding-left:220px;
 }
 
+.hero-heading{
+    font-size: 65px;
+    font-weight: 800;
+    color:#F9FAF8;
+}
 
+.hero-secondary{
+    font-size: 24px;
+    color: #E5E7EB;
+    padding-top:5px;
+    padding-bottom:15px;
+}
+
+.signup{
+    background-color:#3882F6;
+    border:none;
+    color:white;
+    padding:12px 32px;
+    font-size:18px;
+    font-weight: 700;
+    border-radius:8px;
+}
+
+.hero img{
+    width:1000px;
+    height: 300px;
+}
 
 
 
