@@ -62,17 +62,44 @@ body{
     height: 300px;
 }
 
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
+.information{
+    text-align: center;
+}
+
+.information-header{
+    font-size: 36px;
+    font-weight: 700;
+    color:#1F2937;
+    padding:40px;
+}
+.information-body{
+    display: flex;
+    justify-content: center;
+}
 
 a{
     text-decoration: none;
     color:#E5E7EB;
 }
 
+.item{
+    max-width: 200px;
+}
+
+.item .text{
+    color:#1F2937;
+}
+
 .information-img{
-    border: 3px solid blue;
-    height:100px;
-    width:100px;
+    border: 3px solid #3882F6;
+    border-radius: 15px;
 }
 
 ul{
